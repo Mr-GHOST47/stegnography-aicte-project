@@ -39,7 +39,7 @@ pip install opencv-python
 
 ## 🔒 Encryption (Hiding the Message)
 
-### Run `encrypt.py` to hide a secret message in an image:
+### Run `encryption.py` to hide a secret message in an image:
 
 ```bash
 python encrypt.py
@@ -47,7 +47,7 @@ python encrypt.py
 
 **Example Usage:**
 
-- Enter the image path (e.g., `image.png`).
+- Enter the image path (e.g., `task.png`).
 - Input your secret message.
 - Set a password.
 - The encrypted image (`encryptedImage.png`) will be generated.
@@ -56,7 +56,7 @@ python encrypt.py
 
 ## 🔓 Decryption (Revealing the Message)
 
-### Run `decrypt.py` to extract the hidden message:
+### Run `decryption.py` to extract the hidden message:
 
 ```bash
 python decrypt.py
@@ -75,12 +75,6 @@ python decrypt.py
 - **Use PNG format** for accuracy (JPEG may alter pixels due to compression).
 - Ensure the image has **enough pixels** to store the message.
 - The decryption will fail if the wrong password is entered.
-
----
-
-## 📜 License
-
-This project is open-source and available under the **MIT License**.
 
 ---
 
