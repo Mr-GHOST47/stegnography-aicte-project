@@ -42,7 +42,7 @@ pip install opencv-python
 ### Run `encryption.py` to hide a secret message in an image:
 
 ```bash
-python encrypt.py
+python encryption.py
 ```
 
 **Example Usage:**
@@ -59,7 +59,7 @@ python encrypt.py
 ### Run `decryption.py` to extract the hidden message:
 
 ```bash
-python decrypt.py
+python decryption.py
 ```
 
 **Example Usage:**
